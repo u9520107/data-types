@@ -4,12 +4,12 @@ import istanbul from 'gulp-istanbul';
 import babelIstanbul from 'babel-istanbul';
 import babel from 'gulp-babel';
 import sourcemaps from 'gulp-sourcemaps';
-import git from 'nodegit';
-import fs from 'fs-promise';
-import path from 'path';
-import semver from 'semver';
+// import git from 'nodegit';
+// import fs from 'fs-promise';
+// import path from 'path';
+// import semver from 'semver';
 import rm from 'gulp-rm';
-import cp from 'child_process';
+// import cp from 'child_process';
 
 gulp.task('pre-coverage', () => (
   gulp.src('src/**/*.js')
